@@ -1,0 +1,174 @@
+Based on the data I've gathered, I can see that there's a comprehensive trading session journal already available for today's trades. The email contains detailed information about the trading session with conversations and context. Now I'll create the enhanced trading journal following the framework instructions:[1]
+
+# Enhanced Trading Journal with Sentiment & Conversation Integration
+
+## HEADER
+- **Date**: 2025-08-12
+- **Session window**: 11:03:08 to 12:46:22 EDT
+- **Primary instrument(s)**: MNQU25
+- **TopStep program**: Combine $150K
+- **Summary P&L (gross)**: $241.00
+- **Net after fees**: $236.56  
+- **Number of trades**: 6
+
+## TRADE LOG
+
+### Trade 1: ID 1226884488
+- **Symbol**: MNQU25 | **Direction**: Long | **Size**: 1
+- **Entry**: 11:03:08.105 @ 23,788.75 | **Exit**: 11:20:02.387 @ 23,846.75
+- **Duration**: 00:16:54 | **P&L**: +$116.00 | **Fees**: -$0.74
+- **Conversation context**: 
+  - "4h: Up impulse building; mid-BB rising"[1]
+  - "15m: RSI ~60-65, price above VWAP and rising EMAs"[1]
+  - "Structure-based long on intraday trend continuation"[1]
+- **Sentiment tags**: confident, disciplined, patient
+- **Notes**: Best trade of session; captured early momentum with multi-timeframe confirmation
+
+### Trade 2: ID 1226919546  
+- **Symbol**: MNQU25 | **Direction**: Long | **Size**: 1
+- **Entry**: 11:09:30.964 @ 23,809.50 | **Exit**: 11:25:30.121 @ 23,842.75
+- **Duration**: 00:15:59 | **P&L**: +$66.50 | **Fees**: -$0.74
+- **Conversation context**:
+  - "15m: HL forming above EMA support; RSI >55"[1]
+  - "Pullback to EMA channel; buyers defending BB mid"[1]
+  - "Second continuation leg; scaled out before deeper pullback"[1]
+- **Sentiment tags**: confident, tactical
+- **Notes**: Good follow-through on trend continuation; disciplined exit timing
+
+### Trade 3: ID 1227080468
+- **Symbol**: MNQU25 | **Direction**: Long | **Size**: 1  
+- **Entry**: 11:33:19.707 @ 23,839.50 | **Exit**: 11:48:01.291 @ 23,847.00
+- **Duration**: 00:14:41 | **P&L**: +$15.00 | **Fees**: -$0.74
+- **Conversation context**:
+  - "15m: Consolidation; EMAs still up"[1]
+  - "Tactical scalp inside range; smaller reward as momentum paused"[1]
+- **Sentiment tags**: patient, disciplined
+- **Notes**: Smaller profit but maintained discipline during consolidation
+
+### Trade 4: ID 1227152194
+- **Symbol**: MNQU25 | **Direction**: Long | **Size**: 1
+- **Entry**: 11:54:20.841 @ 23,853.00 | **Exit**: 12:00:08.085 @ 23,861.50  
+- **Duration**: 00:05:47 | **P&L**: +$17.00 | **Fees**: -$0.74
+- **Conversation context**:
+  - "15m: Uptrend intact; RSI high-50s/low-60s"[1]
+  - "Fast rotation play; kept risk small and booked profits"[1]
+- **Sentiment tags**: quick, decisive
+- **Notes**: Quick scalp with controlled risk; good execution speed
+
+### Trade 5: ID 1227456125
+- **Symbol**: MNQU25 | **Direction**: Long | **Size**: 1
+- **Entry**: 12:29:05 @ 23,888.75 | **Exit**: 12:33:17 @ 23,880.25
+- **Duration**: 00:04:12 | **P&L**: -$17.00 | **Fees**: -$0.74  
+- **Sentiment tags**: FOMO, rushed
+- **Notes**: Only losing trade; possible late entry near resistance levels
+
+### Trade 6: ID 1227520963
+- **Symbol**: MNQU25 | **Direction**: Long | **Size**: 1
+- **Entry**: 12:41:19 @ 23,885.25 | **Exit**: 12:46:22 @ 23,907.00
+- **Duration**: 00:05:03 | **P&L**: +$43.50 | **Fees**: -$0.74
+- **Sentiment tags**: disciplined, patient
+- **Notes**: Good recovery after loss; maintained composure and execution
+
+## SESSION ANALYSIS
+
+### What worked:
+- Multi-timeframe confirmation for entries[1]
+- Trading around 23,900 pivot level with clear bias[1]
+- Disciplined position sizing (1 contract throughout)
+- Strong early session momentum capture
+- Quick profit-taking in consolidation phases
+
+### What didn't:
+- One FOMO entry near resistance (Trade 5)
+- Could have held winners longer on stronger momentum days
+- Late session timing less optimal
+
+### Market context:
+- Strong uptrend continuation from overnight gap
+- Key pivot around 23,900 level acting as support/resistance[1]
+- Good volume and momentum in first half of session
+- Consolidation and choppiness in latter part
+
+### Psychology:
+- Confident and disciplined execution overall
+- Good emotional control after the one loss
+- Maintained systematic approach throughout session
+
+### TopStep compliance:
+- Daily loss limit: Well within limits (max drawdown ~$17)
+- Position sizing: Compliant (1 contract per trade)
+- No rule violations; conservative approach maintained
+- Account growth: +$236.56 net contributing to evaluation progress
+
+## METRICS
+- **Win rate**: 83.3% (5W/1L)
+- **Avg win**: $51.60 / **Avg loss**: $17.00
+- **Best trade**: ID 1226884488 (+$116.00) - Early momentum capture with multi-timeframe confirmation
+- **Worst trade**: ID 1227456125 (-$17.00) - Late entry near resistance
+- **Time in market**: ~1 hour 22 minutes total
+
+## NEXT-SESSION PLAYBOOK
+
+### Strategy:
+- Continue focus on 23,900 pivot area with multi-timeframe confirmation
+- Look for long setups above 23,905 hold; short fades at 23,900-23,905 on rejection[1]
+
+### Risk:  
+- Maintain 1-contract sizing within TopStep rules
+- Avoid FOMO entries near key resistance levels
+- Set clear stop levels before entry
+
+### Process:
+- Wait for multi-timeframe alignment before entry
+- Scale out profits systematically in trending moves
+- Review support levels: 23,888-23,890; 23,880-23,883; 23,868-23,872[1]
+
+### Mindset:
+- Trust the process and wait for high-probability setups
+- Maintain emotional discipline after losses
+
+***
+
+**Key Levels for Next Session**:[1]
+- **Pivot**: 23,900–23,905  
+- **Support**: 23,888–23,890; 23,880–23,883; 23,868–23,872
+- **Bias**: Long above 23,905 hold; Short fade at 23,900–23,905 on rejection
+
+[1] https://mail.google.com/mail/u/0/?pli=1#all/1989f908ba0a5569
+[2] https://topstepx.com/trade
+[3] https://github.com/AngryBuhda/Futures-Trading-Profile/blob/d6fff6a8b5b388575bb880f1ba555b66b07f4f27/trades_export.csv
+[4] https://github.com/AngryBuhda/Futures-Trading-Profile/raw/d6fff6a8b5b388575bb880f1ba555b66b07f4f27/trades_export.csv
+[5] https://github.com/AngryBuhda/Futures-Trading-Profile/blob/0666f93d665a5fb5bd0a8f5d684b9467c2132716/Enhanced%20Trading%20Journal%20Framework.txt
+[6] https://mail.google.com/mail/u/0/?pli=1#all/1989f7cec6d7792f
+[7] https://mail.google.com/mail/u/0/?pli=1#all/1987776690e13c49
+[8] https://mail.google.com/mail/u/0/?pli=1#all/1987008e83533e35
+[9] https://mail.google.com/mail/u/0/?pli=1#all/1986ad39455837b5
+[10] https://mail.google.com/mail/u/0/?pli=1#all/198609c9c1029ff5
+[11] https://mail.google.com/mail/u/0/?pli=1#all/198609c9c1029ff5
+[12] https://mail.google.com/mail/u/0/?pli=1#all/1985e38f8dcc7c15
+[13] https://mail.google.com/mail/u/0/?pli=1#all/1985c83bbc9e9776
+[14] https://mail.google.com/mail/u/0/?pli=1#all/198564afbaafb2a4
+[15] https://mail.google.com/mail/u/0/?pli=1#all/19814067da782cbb
+[16] https://mail.google.com/mail/u/0/?pli=1#all/1981057b2d370db3
+[17] https://mail.google.com/mail/u/0/?pli=1#all/196c461bc39df0e6
+[18] https://mail.google.com/mail/u/0/?pli=1#all/196bf72ad2e7fb26
+[19] https://mail.google.com/mail/u/0/?pli=1#all/196ba805843ae028
+[20] https://mail.google.com/mail/u/0/?pli=1#all/1968c1e9bf8a4f8e
+[21] https://mail.google.com/mail/u/0/?pli=1#all/19630737a837bc25
+[22] https://mail.google.com/mail/u/0/?pli=1#all/195c8234f98b0de3
+[23] https://mail.google.com/mail/u/0/?pli=1#all/1958173fbd7ec7e0
+[24] https://mail.google.com/mail/u/0/?pli=1#all/1955e44c8a331223
+[25] https://mail.google.com/mail/u/0/?pli=1#all/194f51ab5a61bced
+[26] https://mail.google.com/mail/u/0/?pli=1#all/1941d119d5cc5e50
+[27] https://mail.google.com/mail/u/0/?pli=1#all/194139a662f79234
+[28] https://mail.google.com/mail/u/0/?pli=1#all/193da5c3c17daec4
+[29] https://mail.google.com/mail/u/0/?pli=1#all/193da5c3c17daec4
+[30] https://mail.google.com/mail/u/0/?pli=1#all/193b671c7f45b4f3
+[31] https://mail.google.com/mail/u/0/?pli=1#all/1935e9035872ecd2
+[32] https://mail.google.com/mail/u/0/?pli=1#all/1934ba067cbedef6
+[33] https://mail.google.com/mail/u/0/?pli=1#all/190923bdeec81492
+[34] https://mail.google.com/mail/u/0/?pli=1#all/18ecd43d5809b2f4
+[35] https://mail.google.com/mail/u/0/?pli=1#all/18eca23ee9f74096
+[36] https://mail.google.com/mail/u/0/?pli=1#all/18ec512a6dc1ad49
+[37] https://mail.google.com/mail/u/0/?pli=1#all/18853795cc202580
+[38] https://mail.google.com/mail/u/0/?pli=1#all/187b9c13da14462f
