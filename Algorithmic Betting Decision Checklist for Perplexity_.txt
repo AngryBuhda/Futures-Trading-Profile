@@ -1,0 +1,87 @@
+﻿Algorithmic Betting Decision Checklist for Perplexity
+=====================================================
+
+
+1. Pre-Trade Preparation  
+- Set bankroll and define risk parameters (per bet, daily, weekly caps).  
+- Note relevant market types (Kalshi, sportsbook, binary contracts, etc.).
+
+
+2. Systematic Data Collection (Browser-Based)  
+- Every 4 hours, or on major event triggers:  
+    - Search:  
+        - “[Event] odds Kalshi”  
+        - “[Team/Player] betting line movement”  
+        - “X sentiment [Event]”  
+    - Browse high-impact posts and engagement spikes on X.  
+    - Record sportsbook and Kalshi contract prices.  
+    - Note volume/liquidity available.
+
+
+3. Implied Probability & Vig Removal  
+- Convert odds to implied probabilities:  
+    - Decimal: IP = 1 / Decimal_Odds  
+    - American: +X → IP = 100 / (100 + X), –X → IP = X / (100 + X)  
+- Sum IPs and normalize: NP_i = IP_i / S, where S = sum of IP_i.  
+- For Kalshi, adjust for fee: True_Prob = (Price – 0.01) / (1 – 0.02).
+
+
+4. Statistical Model Blending  
+- Model prediction using logistic regression or random forest.  
+- Include social sentiment and historical outcomes.  
+- Blend probabilities:  
+    - 30% sportsbook  
+    - 25% Kalshi  
+    - 20% model prediction  
+    - 15% sentiment  
+    - 10% historical outcomes  
+- Final_Prob = weighted sum.
+
+
+5. Edge Detection & Opportunity Scan  
+- Calculate Edge = Final_Prob – NP.  
+- Flag if Edge > 2% and sufficient liquidity.  
+- Compare probabilities across markets for arbitrage (NP_max – NP_min > fees/spread).  
+- If sentiment spike and price unchanged, temporarily boost Final_Prob.
+
+
+6. Trade Confidence & Decision Logic  
+- Proceed only if all are true:  
+    - Edge > 2%  
+    - Confidence > 60%  
+    - (Final_Prob × Odds – 1 > 0)  
+- If not met, skip event and document reason.
+
+
+7. Position Sizing  
+- Kelly Criterion:  
+    - b = (Payout / Stake) – 1  
+    - Full Kelly: f* = (b × p – q) / b (p = Final_Prob, q = 1 – p)  
+    - Fractional: f* × 0.30  
+- Limit bet to ≤ 5% of bankroll; follow daily/weekly/correlation caps.
+
+
+8. Execution & Logging  
+- Place bet and log: queries, odds, IP, NP, Final_Prob, Edge, Kelly size, outcome logic.  
+- Note timestamp and rationale.
+
+
+9. Real-Time Monitoring & Exit Management  
+- Every 15 minutes or when relevant news hits:  
+    - Recalculate NP and Final_Prob.  
+    - Exit if: profit falls >50%, sentiment reverses, or Edge < 0.  
+    - Target exit at 80% of theoretical max gain.  
+    - Stop-loss at 50% of initial EV.
+
+
+10. Performance Tracking & Improvement  
+- After each event: record P&L and Closing Line Value.  
+- Weekly: adjust weights based on accuracy.  
+- Monthly: retrain statistical models.  
+- Tune Edge and sentiment thresholds for optimal ROI.
+
+
+***
+
+
+If you want, I can also **condense this into a one-page “rapid execution” command sheet** so you can run bets in under two minutes per decision cycle. Would you like me to do that?
