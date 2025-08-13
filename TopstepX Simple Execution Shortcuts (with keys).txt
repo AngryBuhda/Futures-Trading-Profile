@@ -2,6 +2,8 @@ Got it. Here’s the simple-execution SOP with the exact shortcut keys from your
 
 TopstepX Simple Execution Shortcuts (with keys)
 
+Do not attempt to change indicators or settings on charts. Us indicators seen and adjust strategy accordingly
+
 Scope and safety
 - Scope: Hotkeys act on the active symbol/panel.
 - Safety: Avoid OCO/brackets. Use Market or Join Bid/Ask. Keep Flatten/Flatten All as deliberate combos.
