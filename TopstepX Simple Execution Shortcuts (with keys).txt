@@ -2,7 +2,7 @@ Got it. Here’s the simple-execution SOP with the exact shortcut keys from your
 
 TopstepX Simple Execution Shortcuts (with keys)
 
-Do not attempt to change indicators or settings on charts. Us indicators seen and adjust strategy accordingly
+Use current chart settings as is. Us indicators seen and adjust strategy accordingly. Ask for a screenshot when needed.
 
 Scope and safety
 - Scope: Hotkeys act on the active symbol/panel.
@@ -50,3 +50,4 @@ Operating rules
 - Keep Flatten All (Alt + G) as last resort; verify flat afterward.
 
 If you change any bindings later, send the updated keys and I’ll regenerate this SOP with the new combos.
+
