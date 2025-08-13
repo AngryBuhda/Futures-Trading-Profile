@@ -1,0 +1,79 @@
+Enhanced Trading Journal - August 13, 2025
+==========================================
+
+HEADER
+- Date: 08/13/2025
+- Session window: 12:45:44 to 14:02:31 EDT
+- Primary instrument(s): MNQU5
+- TopStep program: $150K Combine
+- Summary P&L (gross): $48.50
+- Net after fees: $44.06
+- Number of trades: 6
+
+TRADE LOG
+- Trade ID: 1232599931 | Symbol: MNQU5 | Direction: Short | Size: 1
+- Entry: 2025-08-13 12:45:44-04:00 @ 23906.25 | Exit: 2025-08-13 12:53:11-04:00 @ 23902.25
+- Duration: 00:07:26 | P&L: $8.00 | Fees: $0.74
+- Conversation context: [Live session monitoring, anticipatory vs confirmation entries discussed]
+- Sentiment tags: [disciplined, patient, some impulsive entries noted]
+- Notes: [Consistent with VWAP rejection strategy, good risk management with trailing stops]
+
+- Trade ID: 1232749787 | Symbol: MNQU5 | Direction: Short | Size: 1
+- Entry: 2025-08-13 13:05:55-04:00 @ 23911.00 | Exit: 2025-08-13 13:16:52-04:00 @ 23906.25
+- Duration: 00:10:57 | P&L: $9.50 | Fees: $0.74
+- Conversation context: [Live session monitoring, anticipatory vs confirmation entries discussed]
+- Sentiment tags: [disciplined, patient, some impulsive entries noted]
+- Notes: [Consistent with VWAP rejection strategy, good risk management with trailing stops]
+
+- Trade ID: 1232889538 | Symbol: MNQU5 | Direction: Short | Size: 1
+- Entry: 2025-08-13 13:28:53-04:00 @ 23939.75 | Exit: 2025-08-13 13:35:06-04:00 @ 23910.75
+- Duration: 00:06:13 | P&L: $58.00 | Fees: $0.74
+- Conversation context: [Live session monitoring, anticipatory vs confirmation entries discussed]
+- Sentiment tags: [confident, momentum shift recognition]
+- Notes: [Best trade of session - strong VWAP rejection with good follow-through]
+
+- Trade ID: 1232954652 | Symbol: MNQU5 | Direction: Short | Size: 1
+- Entry: 2025-08-13 13:38:21-04:00 @ 23907.75 | Exit: 2025-08-13 13:49:35-04:00 @ 23912.50
+- Duration: 00:11:13 | P&L: $-9.50 | Fees: $0.74
+- Conversation context: [Acknowledged impulsive entry, discussed entry quality concerns]
+- Sentiment tags: [impulsive, self-aware, corrective]
+- Notes: [Recognized poor entry timing, maintained disciplined exit]
+
+- Trade ID: 1232977258 | Symbol: MNQU5 | Direction: Short | Size: 1
+- Entry: 2025-08-13 13:50:58-04:00 @ 23911.75 | Exit: 2025-08-13 13:53:18-04:00 @ 23923.75
+- Duration: 00:02:19 | P&L: $-24.00 | Fees: $0.74
+- Conversation context: [Entry felt rushed, price moved toward stop quickly]
+- Sentiment tags: [rushed, defensive]
+- Notes: [Quick exit on adverse move, good damage control]
+
+- Trade ID: 1233029788 | Symbol: MNQU5 | Direction: Long | Size: 1
+- Entry: 2025-08-13 13:56:42-04:00 @ 23928.25 | Exit: 2025-08-13 14:02:31-04:00 @ 23931.50
+- Duration: 00:05:49 | P&L: $6.50 | Fees: $0.74
+- Conversation context: [Sensed momentum shift, trailing stop triggered near breakeven]
+- Sentiment tags: [adaptive, momentum-aware]
+- Notes: [Good read on potential direction change, protected with trailing stop]
+
+SESSION ANALYSIS
+- What worked: [VWAP rejection strategy, disciplined use of trailing stops, capital preservation focus]
+- What didn't: [Some impulsive/anticipatory entries without full confirmation, choppy market conditions]
+- Market context: [Consolidation/range-bound environment around 23900-23940 area with overhead resistance]
+- Psychology: [Professional mindset, recognized poor timing and adjusted, maintained risk discipline]
+- TopStep compliance: [Excellent adherence to position sizing, no rule violations, appropriate risk per trade]
+
+METRICS
+- Win rate: 66.7%
+- Avg win / Avg loss: $20.50 / $16.75
+- Best trade: 1232889538 (+$58.00 - strong VWAP rejection)
+- Worst trade: 1232977258 (-$24.00 - counter-trend position)
+- Time in market: 00:43
+
+NEXT-SESSION PLAYBOOK
+- Strategy: [Wait for higher-conviction setups with proper order flow confirmation before entry]
+- Risk: [Continue 1-2% per trade sizing, maintain 3% daily max loss within combine rules]
+- Process: [Require 1.5x T&S volume burst + confluence ≥8 points before execution]
+- Mindset: [Patience over frequency - quality setups over quantity]
+
+NOTES
+- All trades executed within TopStep combine rules and risk parameters
+- Strong focus on capital preservation and risk management demonstrated
+- Conversation context from live trading session provided real-time guidance
