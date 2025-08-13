@@ -1,0 +1,207 @@
+﻿# **Complete Algorithmic Day Trading System: Expanded Technical Analysis Framework**
+
+
+## **Section 1 — System Overview**
+
+
+This algorithm is engineered for **intraday trading** with the capability to:
+- **Scalp** short-term momentum bursts (20 seconds to 5 minutes)
+- **Build positions** throughout the day into longer intraday swings (10–180 minutes)
+- **Adapt dynamically** to changing market volatility
+- **Enforce strict institutional-grade risk controls**
+
+
+It utilizes **multi-timeframe analysis (MTA)** across **two time-based** (15m, 1h) and **two event-based** (500-tick candlestick, 500-tick Renko) charts.  
+Indicators are layered in a way that higher timeframe structure dictates trade bias, and lower timeframe price/volume signatures refine entries.
+
+
+***
+
+
+## **Section 2 — Timeframe Role Hierarchy**
+
+
+### **1-Hour Candlestick Chart (HTF Bias & Macro Intraday Map)**
+- **Purpose**: Determine primary trade direction and trend strength.
+- **Indicators Used**: VWAP, 50MA, 200DMA, Bollinger Bands (+2/+3 σ), RSI(14).
+- **Actions on This Timeframe**:
+  - Directional bias determined: Only long trades if price > VWAP and MA structure is bullish; only short trades if below VWAP and structure is bearish.
+  - Identify key swing highs/lows for daily support/resistance.
+  - Confirm Bollinger Band compression for potential high-volatility breakouts.
+
+
+### **15-Minute Candlestick Chart (Setup Locator)**
+- **Purpose**: Identify tactical pullback zones, consolidation patterns, bullish/bearish flags.
+- **Indicators Used**: VWAP, 21MA, 50MA, Bollinger Bands, RSI(14), ATR(14), Volume.
+- **Actions on This Timeframe**:
+  - Wait for price to approach moving average confluence zones aligned with higher timeframe bias.
+  - Reject trades if RSI divergence against higher timeframe direction is present.
+
+
+### **500-Tick Candlestick Chart (Entry Precision & Micro-Structure)**
+- **Purpose**: Detect real-time order flow changes, micro breakouts, and early reversals.
+- **Indicators Used**: VWAP intraday reset, 21MA, Bollinger Bands (2σ), Volume Surge Filter.
+- **Actions on This Timeframe**:
+  - Use break of micro structure with 1.5–2× average volume as a trigger.
+  - Recognize fakeouts via volume divergence signals.
+
+
+### **500-Tick Renko Chart (Noise Removal Trend Visualizer)**
+- **Purpose**: Strip out intrabar noise and focus purely on sustained directional moves.
+- **Indicators Used**: None on Renko bricks themselves except optional overlay of VWAP and key moving averages for context.
+- **Actions on This Timeframe**:
+  - Only trade in the same direction as Renko trend bricks aligned with higher timeframes.
+  - Use first brick change after micro reversal patterns for scalp entries.
+
+
+***
+
+
+## **Section 3 — Indicator Implementation Rules**
+
+
+### **VWAP**
+- **Resets daily at market open (09:30 ET)**.
+- Acts as **primary directional filter** — no counter-VWAP trades unless scalping extreme reversion signals.
+- **Pullback rules**:
+  - Bullish: Enter on pullback to VWAP from above with proof of rejection.
+  - Bearish: Enter on pullback to VWAP from below with rejection.
+
+
+### **Bollinger Bands**
+- **Standard Bands**: 20-period, ±2σ for ongoing volatility tracking.
+- **Extreme Bands**: 20-period, ±3σ for rare statistical extremes — used as high-confidence reversal trigger zones.
+- **Breakout Setup**: BB squeeze detection (low bandwidth); enter on confirmed breakout in direction of higher timeframe bias with volume > 1.5× average.
+
+
+### **Moving Averages**
+- **21 EMA**: Short-term price slope guide and active pullback level.
+- **50 SMA**: Mid-term bias confirmer.
+- **200 DMA**: Macro intraday swing direction.
+- **480 MA**: Ultra-long reference (aligns with 20-day hourly trend).
+- **Bullish Stack**: 21 > 50 > 200 > 480
+- **Bearish Stack**: 21 < 50 < 200 < 480
+- **Flat**: No stack; bias only from VWAP and volume analysis.
+
+
+### **RSI**
+- Standard: RSI(14).
+- Adjust thresholds for trending markets:
+  - Bullish: Oversold at 40 not 30; overbought at 80.
+  - Bearish: Overbought at 60 not 70; oversold at 20.
+- Divergence in direction opposite to setup = caution or reduced size.
+
+
+### **Volume**
+- Compare real-time volume to 50-period average on each chart.
+- **Breakout condition**: >150% average volume on trigger candle.
+- **Volume Divergence**: Breakouts on <100% average volume = breakout fade candidate.
+
+
+### **ATR**
+- ATR(14) on trade execution chart.
+- Stop = 1.5x ATR for scalp, 2x ATR for day trade.
+- Position sizing tied to volatility: higher ATR = smaller size.
+
+
+***
+
+
+## **Section 4 — Confluence Scoring System**
+
+
+| Factor                                 | Points |
+|----------------------------------------|--------|
+| Higher timeframe VWAP bias match       | 2      |
+| Bollinger Band location & expansion    | 2      |
+| MA stack alignment                     | 3      |
+| RSI in favorable zone                  | 1      |
+| Volume confirmation > 120% avg         | 2      |
+| ATR > 80% of average                   | 1      |
+| All 4 timeframes trend aligned         | 3      |
+| HTF support/resistance agreement       | 2      |
+**Max Score: 16**
+
+
+- 14–16: Full size (2–3% risk)  
+- 11–13: Standard size (1–2% risk)  
+- 8–10: Reduced size (0.5–1% risk)  
+- 5–7: Scalp only  
+- <5: No trade
+
+
+***
+
+
+## **Section 5 — Entry & Exit Rules**
+
+
+### **Long Entry**
+1. **HTF Confirmation**: Price above 1h VWAP, bullish MA alignment, Bollinger expansion or mid-band support.
+2. **Setup (15m)**: Pullback to 21 or 50MA with RSI > 50.
+3. **Trigger (500-tick)**: Micro-structure breakout with volume surge ≥ 1.5×.
+4. **Trend Confirmation (Renko)**: Green bricks.
+5. Confluence score ≥ 8.
+
+
+### **Short Entry**
+Exactly inverse of long.
+
+
+***
+
+
+## **Section 6 — Position Management**
+
+
+- **Scaling In**: 25% initial size, +25% on 500-tick confirmation, +50% when Renko trend resumes in your favor.
+- **Scaling Out**: Remove 50% at 1R, trail stop with Parabolic SAR or last swing low/high.
+- **Stop-Loss**: Always ATR-based; never static pips/ticks.
+
+
+***
+
+
+## **Section 7 — Market Regime Switch**
+
+
+- **High Volatility (ATR > 1.2× 20-day avg)**: Favor breakouts, reduce size 25%.
+- **Low Volatility (ATR < 0.8×)**: Favor mean reversion, increase size 25%.
+- **Trending**: Ignore standard RSI OB/OS — use pullback RSI levels.
+- **Ranging**: VWAP & Bollinger fade plays only.
+
+
+***
+
+
+## **Section 8 — Risk & Controls**
+
+
+- **Daily Max Risk**: 6%  
+- **Per Trade Risk**: 1–2%  
+- **Halt Day**: If -3% reached mid-session  
+- **Max Positions**: 3 correlated stocks or futures contracts
+
+
+***
+
+
+## **Section 9 — Operational Flow**
+
+
+1. **Pre-Market (08:30–09:30 ET)**:
+   - Identify top watchlist based on liquidity, gap % change, premarket volume > 500k.
+   - Mark HTF support/resistance zones.
+
+
+2. **Open Session (09:30–10:30)**:
+   - Observe opening drive; avoid trades in first 2m unless extreme setup.
+
+
+3. **Mid-Day (10:30–14:00)**:
+   - Focus on breakouts from consolidations and VWAP reclaims.
+
+
+4. **Late Day (14:00–15:45)**:
+   - Exit all intraday positions entirely.
+   - Avoid fresh trades unless liquidity + volatility spike.
