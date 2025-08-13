@@ -1,0 +1,50 @@
+Got it. Here’s the simple-execution SOP with the exact shortcut keys from your setup so Perplexity can follow it precisely.
+
+TopstepX Simple Execution Shortcuts (with keys)
+
+Scope and safety
+- Scope: Hotkeys act on the active symbol/panel.
+- Safety: Avoid OCO/brackets. Use Market or Join Bid/Ask. Keep Flatten/Flatten All as deliberate combos.
+
+Core actions and keys
+- Buy Market: Alt + B
+- Sell Market: Alt + S
+- Join Bid: Alt + N
+- Join Ask: Alt + D
+- Reverse Position: Alt + T
+- Close Position (flatten current symbol): Alt + C
+- Cancel All (working orders on current symbol): Alt + F
+- Flatten All (emergency all symbols): Alt + G
+- Hide Vol. Profile Column: Alt + H
+- Center on Last Price: Alt + ArrowUp
+- Contract Size +1: Alt + ArrowDown
+- Break Even: Alt + B + E
+
+Entry protocol
+- Default entry: Alt + B (long) or Alt + S (short).
+- Price improvement attempt: Alt + N (Join Bid for long) or Alt + D (Join Ask for short).
+  - If not filled quickly: Alt + F (Cancel All), then Alt + B or Alt + S to enter via Market.
+- Protection (no OCO): After entry, place one manual Stop Market only if needed.
+
+Exit protocol
+- Fast exit: Alt + C (Close Position). If UI lags, press the opposite Market key (Alt + S to exit long, Alt + B to cover short).
+- If using Join Bid/Ask to exit and price moves away: Alt + F (Cancel All), then Alt + C or opposite Market.
+- After any exit: Alt + F (Cancel All) to clear leftovers.
+
+Emergency and recovery
+- Panic flatten across symbols: Alt + G (Flatten All), then verify positions are flat.
+- Accidental reverse: Alt + T reverses; avoid pressing unless intentional.
+
+Muscle-memory drills
+- Drill 1: Flat → Alt + B → Alt + C → Alt + F.
+- Drill 2: Flat → Alt + N (no fill) → Alt + F → Alt + B → Alt + C → Alt + F.
+- Drill 3: In position → Alt + D (target) → price moves away → Alt + F → Alt + C.
+- Drill 4: In position with manual stop working → Alt + C → Alt + F.
+
+Operating rules
+- When unsure, choose certainty: Market (Alt + B / Alt + S).
+- Join Bid/Ask must fill fast; otherwise Cancel All (Alt + F) and go Market.
+- Do not use OCO/brackets in choppy platform conditions.
+- Keep Flatten All (Alt + G) as last resort; verify flat afterward.
+
+If you change any bindings later, send the updated keys and I’ll regenerate this SOP with the new combos.
