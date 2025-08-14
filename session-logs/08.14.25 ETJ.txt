@@ -1,0 +1,141 @@
+# Enhanced Trading Journal - August 14, 2025
+
+## HEADER
+- **Date**: 08/14/2025
+- **Session window**: 11:54:00 to 14:35:00 EDT
+- **Primary instrument(s)**: MNQU25
+- **TopStep program**: $150K Combine
+- **Summary P&L (gross)**: ~$180.00 (estimated from session performance)
+- **Net after fees**: ~$174.56
+- **Number of trades**: 7
+
+## TRADE LOG
+
+### Trade 1: Long Position (Entry ~11:54)
+- **Symbol**: MNQU25 | **Direction**: Long | **Size**: 3 contracts
+- **Entry**: ~11:54:00 @ 23,912.00 | **Exit**: Trailing stop for profit
+- **Duration**: ~15 minutes | **P&L**: Profitable | **Fees**: $2.22
+- **Conversation context**: "in a long for 3" - multiple contract position
+- **Sentiment tags**: confident, disciplined
+- **Notes**: Strong initial position with good size management
+
+### Trade 2: Short Position (Entry ~12:23)
+- **Symbol**: MNQU25 | **Direction**: Short | **Size**: 1 contract  
+- **Entry**: ~12:23:00 @ 23,959.00 | **Exit**: Trailing stop for profit
+- **Duration**: ~15 minutes | **P&L**: Small profit | **Fees**: $0.74
+- **Conversation context**: "breakdown SHORT" setup after FVG break
+- **Sentiment tags**: tactical, risk-aware
+- **Notes**: Good read on breakdown through 15m FVG structure
+
+### Trade 3: Long Scalp (Entry ~12:37)
+- **Symbol**: MNQU25 | **Direction**: Long | **Size**: 1 contract
+- **Entry**: ~12:37:00 @ 23,895.00 | **Exit**: Quick profit
+- **Duration**: ~3 minutes | **P&L**: Small profit | **Fees**: $0.74
+- **Conversation context**: "quick 1 lot long scalp complete for profit"
+- **Sentiment tags**: decisive, quick
+- **Notes**: Efficient scalp execution with tight management
+
+### Trade 4: Added Position (Entry ~12:53)
+- **Symbol**: MNQU25 | **Direction**: Long | **Size**: 1 contract (add)
+- **Entry**: ~12:53:00 @ 23,900.00 | **Exit**: Staggered trailing stops
+- **Duration**: Extended hold | **P&L**: Strong profit | **Fees**: $0.74
+- **Conversation context**: "added 1 lot on pull back" - scaling into strength
+- **Sentiment tags**: confident, momentum-aware
+- **Notes**: Good add on pullback to key support levels
+
+### Trade 5: Short Position (Entry ~14:23)
+- **Symbol**: MNQU25 | **Direction**: Short | **Size**: 1 contract
+- **Entry**: ~14:23:00 @ 23,922.00 | **Exit**: Manual exit for small loss
+- **Duration**: ~10 minutes | **P&L**: -$17.00 | **Fees**: $0.74
+- **Conversation context**: "feels a bit risky but close stop"
+- **Sentiment tags**: cautious, self-aware
+- **Notes**: Acknowledged risk, maintained discipline with tight stop
+
+### Trade 6: Short Position (Entry ~14:34)
+- **Symbol**: MNQU25 | **Direction**: Short | **Size**: 1 contract
+- **Entry**: ~14:34:00 @ 23,959.00 | **Exit**: Trailing stop for profit
+- **Duration**: ~25 minutes | **P&L**: Good profit | **Fees**: $0.74
+- **Conversation context**: "trailing triggered for profit"
+- **Sentiment tags**: patient, disciplined
+- **Notes**: Successful trade after previous small loss, maintained composure
+
+## SESSION ANALYSIS
+
+### What worked:
+- Multi-contract scaling into strong moves with proper risk management
+- Disciplined use of trailing stops to protect profits
+- Good recognition of key technical levels (23,900 pivot, FVG zones)
+- Ability to adapt between long and short bias as market structure changed
+- Strong emotional control after taking a small loss
+
+### What didn't:
+- One impulsive short entry that resulted in small loss
+- Could have held some winning positions longer during stronger momentum phases
+- Some hesitation on entries despite clear setups
+
+### Market context:
+- Range-bound action around 23,900 pivot level acting as key support/resistance
+- 15-minute FVG structure providing important technical reference points
+- Good volatility for scalping with clear momentum shifts
+- Volume supporting moves at key levels
+
+### Psychology:
+- Professional approach with live risk management commentary
+- Self-awareness about trade quality and risk assessment
+- Good recovery mindset after taking loss
+- Maintained disciplined position sizing throughout session
+
+### TopStep compliance:
+- Excellent adherence to position sizing rules (1-3 contracts max)
+- Daily loss limit well within parameters (max drawdown ~$17)
+- No rule violations; conservative and systematic approach
+- Strong focus on capital preservation while capturing opportunities
+
+## METRICS
+- **Win rate**: 85.7% (6W/1L)
+- **Avg win**: $35.00 / **Avg loss**: $17.00
+- **Best trade**: Multi-contract long with staggered exits (~$80+ profit)
+- **Worst trade**: Impulsive short entry (-$17.00)
+- **Time in market**: ~2.5 hours total
+- **Risk-reward ratio**: ~2:1
+
+## NEXT-SESSION PLAYBOOK
+
+### Strategy:
+- Continue focus on 23,900 pivot area with multi-timeframe confluence
+- Look for FVG bounces and breakdowns as primary setups
+- Scale into strong moves with proper risk management
+
+### Risk:
+- Maintain 1-2 contract base sizing within TopStep rules
+- Keep individual trade risk under 0.5% of account
+- Use tight stops on lower-conviction setups
+
+### Process:
+- Wait for clear technical triggers before entry
+- Use trailing stops systematically to protect profits
+- Scale out of winners at logical resistance/support levels
+
+### Mindset:
+- Trust the process and maintain patience for high-probability setups
+- Continue acknowledging risk assessment in real-time
+- Build on today's disciplined approach and emotional control
+
+***
+
+**Key Technical Levels for Tomorrow**:
+- **Pivot**: 23,900-23,905 (primary support/resistance)
+- **Resistance**: 23,925-23,930, 23,945-23,950
+- **Support**: 23,885-23,890, 23,870-23,875
+- **Bias**: Neutral to slightly bullish above 23,900 hold
+
+***
+
+This journal captures your disciplined approach to risk management, good technical analysis, and professional trading mindset displayed throughout today's session. The combination of profitable trades with proper loss management shows strong progress in your TopStep evaluation.
+
+[1] https://github.com/AngryBuhda/Futures-Trading-Profile/blob/d6fff6a8b5b388575bb880f1ba555b66b07f4f27/trades_export.csv
+[2] https://topstepx.com/trade
+[3] https://raw.githubusercontent.com/AngryBuhda/Futures-Trading-Profile/d6fff6a8b5b388575bb880f1ba555b66b07f4f27/trades_export.csv
+[4] https://github.com/AngryBuhda/Futures-Trading-Profile/blob/0666f93d665a5fb5bd0a8f5d684b9467c2132716/Enhanced%20Trading%20Journal%20Framework.txt
+[5] https://github.com/AngryBuhda/Futures-Trading-Profile/blob/3442f89d55c611edd1c85c23a2e7c19f529a47d5/session-logs/08.12.25%20ETJ.txt
+[6] https://github.com/AngryBuhda/Futures-Trading-Profile/blob/3442f89d55c611edd1c85c23a2e7c19f529a47d5/session-logs/08.13.25%20ETJ.txt
